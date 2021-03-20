@@ -4,7 +4,7 @@
   "description": "Jobs API for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "tsc && jest"
   },
   "repository": {
     "type": "git",
