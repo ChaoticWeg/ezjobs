@@ -1,0 +1,28 @@
+{
+  "name": "ezjobs",
+  "version": "1.0.0",
+  "description": "Jobs API for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaoticWeg/ezjobs.git"
+  },
+  "author": "Shawn Lutch <shawn@lutch.dev>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ChaoticWeg/ezjobs/issues"
+  },
+  "homepage": "https://github.com/ChaoticWeg/ezjobs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.21",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "typescript": "^4.2.3"
+  }
+}
