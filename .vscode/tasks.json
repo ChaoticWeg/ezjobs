@@ -3,14 +3,14 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "test",
+			"script": "test:no-ci",
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
 			"problemMatcher": [],
-			"label": "npm: test",
-			"detail": "npm run build && jest"
+			"label": "npm: test:no-ci",
+			"detail": "npm run test:no-ci"
 		}
 	]
 }
